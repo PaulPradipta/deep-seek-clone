@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --primary-bg-color: #0d0f13;        /* Main background */
+  --sidebar-bg-color: #1c1e24;        /* Sidebar background */
+  --chat-box-color: #2d2f36;          /* Chat input box */
+  --button-bg-color: #27292f;         /* Buttons like “New Chat” */
+  --button-text-color: #ffffff;       /* Text inside buttons */
+  --highlight-color: #805ad5;         /* DeepThink (R1) button */
+  --icon-color: #a0aec0;              /* Attachment/send icons */
+  --text-primary: #ffffff;            /* Primary heading text */
+  --text-secondary: #a0a0a0;          /* Subheading / faded text */
+  --chat-list-hover: #2e3241;         /* Chat item hover or selected */
+  --deepseek-logo-color: #3b82f6;     /* DeepSeek logo (blue) */
+  --search-button-color: #383a41;     /* Search button background */
+  --scrollbar-thumb-color: #444;      /* Scrollbar thumb */
+  --scrollbar-track-color: #1c1c1c;   /* Scrollbar track */
+}
