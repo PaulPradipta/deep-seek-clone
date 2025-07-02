@@ -24,12 +24,12 @@ const Sidebar = () => {
           }`}
         >
           <img
-            src={expand ? './assets/logo_text.svg' : './assets/logo_icon.svg'}
+            src={expand ? '/assets/logo_text.svg' : '/assets/logo_icon.svg'}
             className={expand ? 'w-36' : 'w-10'}
             alt='logo'
           />
           <img
-            src='./assets/menu_icon.svg'
+            src='/assets/menu_icon.svg'
             alt='menu'
             className='w-7 cursor-pointer'
             onClick={() => setExpand(!expand)}
@@ -42,7 +42,7 @@ const Sidebar = () => {
             expand ? 'justify-start gap-x-2 bg-[#4d6bfe] p-2 w-fit rounded-2xl' : 'justify-center '
           }`}
         >
-          <img src='./assets/chat_icon.svg' alt='chat' />
+          <img src='/assets/chat_icon.svg' alt='chat' />
           <span
             className={`text-white transition-all duration-300 overflow-hidden whitespace-nowrap ${
               expand ? 'max-w-[200px] opacity-100 ml-2' : 'none max-w-0 opacity-0 ml-0'
@@ -66,7 +66,7 @@ const Sidebar = () => {
             expand ? 'gap-3 border-solid border-[#4D6BFE] border-2 py-2 px-1 rounded-xl' : 'justify-center'
           }`}
         >
-          <img src='./assets/phone_icon_dull.svg' alt='profile' />
+          <img src='/assets/phone_icon_dull.svg' alt='profile' />
           <span
             className={`text-white transition-all duration-300 overflow-hidden whitespace-nowrap ${
               expand ? 'max-w-[150px] opacity-100 ml-2' : 'max-w-0 opacity-0 ml-0'
@@ -77,7 +77,7 @@ const Sidebar = () => {
           </span>
           {expand && (
             <img
-              src='./assets/new_icon.svg'
+              src='/assets/new_icon.svg'
               alt='new'
               className='transition-opacity duration-300'
             />
@@ -94,7 +94,7 @@ const Sidebar = () => {
           {
             user ? <UserButton/> 
             :
-            <img src='./assets/profile_icon.svg' alt='profile' />
+            <img src='/assets/profile_icon.svg' alt='profile' />
           }
           <span
             className={`cursor-pointer text-white transition-all duration-300 overflow-hidden whitespace-nowrap ${

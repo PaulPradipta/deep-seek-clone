@@ -10,16 +10,16 @@ const Message = ({role, content}) => {
                         {
                             role === 'user' ? (
                                 <>
-                                    <img src="./assets/copy_icon.svg" alt='' className='w-4 cursor-pointer'/>
-                                    <img src="./assets/pencil_icon.svg" alt='' className='w-4.5 cursor-pointer'/>
+                                    <img src="/assets/copy_icon.svg" alt='' className='w-4 cursor-pointer'/>
+                                    <img src="/assets/pencil_icon.svg" alt='' className='w-4.5 cursor-pointer'/>
             
                                 </>
                             ) : (
                                 <>
-                                    <img src="./assets/copy_icon.svg" alt='' className='w-4.5 cursor-pointer'/>
-                                    <img src="./assets/regenerate_icon.svg" alt='' className='w-4 cursor-pointer'/>
-                                    <img src="./assets/like_icon.svg" alt='' className='w-4 cursor-pointer'/>
-                                    <img src="./assets/dislike_icon.svg" alt='' className='w-4 cursor-pointer'/>
+                                    <img src="/assets/copy_icon.svg" alt='' className='w-4.5 cursor-pointer'/>
+                                    <img src="/assets/regenerate_icon.svg" alt='' className='w-4 cursor-pointer'/>
+                                    <img src="/assets/like_icon.svg" alt='' className='w-4 cursor-pointer'/>
+                                    <img src="/assets/dislike_icon.svg" alt='' className='w-4 cursor-pointer'/>
                                 </>
                             )
                         }

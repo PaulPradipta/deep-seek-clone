@@ -11,7 +11,7 @@ const Prompt = ({setIsLoading, isLoading}) => {
       {messages.length === 0 ? (
             <>
             <div className="flex items-center gap-3">
-              <img src="./assets/logo_icon.svg" alt="" className="h-16"/>
+              <img src="/assets/logo_icon.svg" alt="" className="h-16"/>
               <p className="text-2xl font-medium text-white">Hi, I'm DeepSeek.</p>
             </div>
             <p className="text-sm mt-2 text-white">How can I help you today?</p>
@@ -39,12 +39,12 @@ const Prompt = ({setIsLoading, isLoading}) => {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition text-white">
-              <img className="h-5" src="./assets/deepthink_icon.svg" alt="" />
+              <img className="h-5" src="/assets/deepthink_icon.svg" alt="" />
               DeepThink (R1)
             </p>
 
             <p className="flex items-center gap-2 text-xs border border-gray-300/40 px-2 py-1 rounded-full cursor-pointer hover:bg-gray-500/20 transition text-white">
-              <img className="h-5" src="./assets/search_icon.svg" alt="" />
+              <img className="h-5" src="/assets/search_icon.svg" alt="" />
               Search
             </p>
           </div>
@@ -52,7 +52,7 @@ const Prompt = ({setIsLoading, isLoading}) => {
           <div className="flex items-center gap-2">
             <img
               className="w-4 cursor-pointer"
-              src="./assets/pin_icon.svg"
+              src="/assets/pin_icon.svg"
               alt=""
             />
             <button
@@ -63,7 +63,7 @@ const Prompt = ({setIsLoading, isLoading}) => {
               <img
                 className="w-3.5 aspect-square"
                 src={
-                  prompt ? "./assets/arrow_icon.svg" : "./assets/arrow_icon_dull.svg"
+                  prompt ? "/assets/arrow_icon.svg" : "/assets/arrow_icon_dull.svg"
                 }
                 alt=""
               />
